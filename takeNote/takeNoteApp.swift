@@ -23,9 +23,10 @@ struct takeNoteApp: App {
        
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .modelContainer(for: [Note.self])
-//                .environment(\.font, Font.custom("Oswald-Regular", size: 14))
+            LoginView()
+//             ContentView()
+//                 .modelContainer(for: [Note.self])
+// //                .environment(\.font, Font.custom("Oswald-Regular", size: 14))
         }
         
     }

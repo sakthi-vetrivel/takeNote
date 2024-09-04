@@ -19,6 +19,7 @@
 		6D6740782C79072700CD340F /* NoteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6740772C79072700CD340F /* NoteSheet.swift */; };
 		6D6740B42C7E607F00CD340F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6740B32C7E607F00CD340F /* Colors.xcassets */; };
 		6D6740BC2C7E665500CD340F /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6740BB2C7E665500CD340F /* Oswald-VariableFont_wght.ttf */; };
+		6D820CFE2C88C76A00B73810 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D820CFD2C88C76A00B73810 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6D6740B32C7E607F00CD340F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		6D6740B72C7E62BF00CD340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6D6740BB2C7E665500CD340F /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6D820CFD2C88C76A00B73810 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				6D6740732C75189E00CD340F /* NoteRow.swift */,
 				6D6740752C75218200CD340F /* Note.swift */,
 				6D6740772C79072700CD340F /* NoteSheet.swift */,
+				6D820CFD2C88C76A00B73810 /* LoginView.swift */,
 			);
 			path = takeNote;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D820CFE2C88C76A00B73810 /* LoginView.swift in Sources */,
 				6D6740742C75189E00CD340F /* NoteRow.swift in Sources */,
 				6D67404C2C750F1300CD340F /* ContentView.swift in Sources */,
 				6D67404A2C750F1300CD340F /* takeNoteApp.swift in Sources */,

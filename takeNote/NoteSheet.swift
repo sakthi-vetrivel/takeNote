@@ -85,3 +85,5 @@ struct NoteSheet: View {
 #Preview {
     NoteSheet(note: .constant(Note.mockData[0]), isNewNote: true)
 }
+
+
